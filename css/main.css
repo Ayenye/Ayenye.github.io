@@ -1,5 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Roboto:wght@300&display=swap");
 h1 {
     background-color: #643219ff;
     color: whitesmoke;
@@ -10,7 +11,7 @@ h1 {
      grid-column-end: 6;
      grid-row-start: 1;
      grid-row-end: 4;
-     text-align: center;
+     padding-left: 100px;
      height: 60px;
 }
 
@@ -21,7 +22,7 @@ footer{
     border-radius: 5px;
 }
 body{
-    font-size: 18;
+    font-size: 18px;
     line-height: 1.5;
 }
 main, header, nav, footer{
@@ -64,10 +65,12 @@ main, header, nav, footer{
     margin-left: 20px;
     margin-right: 190px;
     margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
  }
  ul {
     margin-top: 0px;
     margin-left: 20px;
+    font-family: "Alegreya Sans SC", sans-serif;
  }
  #line{
      color: white;
