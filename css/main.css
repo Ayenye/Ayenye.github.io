@@ -37,8 +37,9 @@ main, header, nav, footer{
      grid-template-rows: 0.5fr 0.25fr 0.25fr   0.25px ;
  }
  img{
-     border: 2px solid rgb(0, 0, 0);
+     
      border-radius: 5px;
+     box-shadow: 2px 2px 10px 5px black;
      grid-column-end: 5;
      grid-column-start: 4;
      grid-row-start: 1;
